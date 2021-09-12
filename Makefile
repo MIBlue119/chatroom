@@ -7,3 +7,7 @@ help:
 serve_docker: ## Activate the service with docker
 	chmod u+x ./scripts/serve_docker.sh
 	./scripts/serve_docker.sh ./docker-compose.yaml
+
+serve_frontend_dev: ## Activate the frontend service directly
+	chmod u+x ./scripts/serve_frontend.sh
+	./scripts/serve_frontend.sh ./frontend
